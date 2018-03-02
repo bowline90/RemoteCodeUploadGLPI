@@ -29,7 +29,7 @@ Basic usage:
 - *\<URL\>*: URL endpoint.
 
 ## How it works
-GLPI software allows to upload file and than check if the file is valid or not. We use a 'Race Condition Vulnerability' in order to execute the file BEFORE the software delete the file.
+GLPI software allows to upload file and than check if the file is valid or not. We use a 'Race Condition Vulnerability' in order to execute the file BEFORE the software deletes the file.
 
 For a better explaination follow the link in 'Reference' section.
 
