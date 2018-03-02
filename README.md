@@ -34,7 +34,7 @@ GLPI software allows to upload file and than check if the file is valid or not. 
 For a better explaination follow the link in 'Reference' section.
 
 ## Fixing
-The GLPI team do not consider this as vulnerability: instead of fixing the application code they open a warning if the web server allows to access to *files* directory (https://www.google.com/url?hl=it&q=https://github.com/glpi-project/glpi/pull/3650&source=gmail&ust=1520072757894000&usg=AFQjCNHHtGOgB5_1CkL-EqgBo9u_KbFJjw)
+The GLPI team do not consider this as vulnerability: instead of fixing the application code they open a warning if the web server allows to access to *files* directory (https://github.com/glpi-project/glpi/pull/3650&source=gmail&ust=1520072757894000&usg=AFQjCNHHtGOgB5_1CkL-EqgBo9u_KbFJjw)
 
 ## Testing
 We have successfully done testing on 0.85 version but we think that other version are vulnerable too. The limitation is in version 9.2 (and above) were the filename are pseudo-random.
